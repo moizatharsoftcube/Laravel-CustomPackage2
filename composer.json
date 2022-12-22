@@ -1,11 +1,26 @@
 {
     "name": "moizatharsoftcube/laravelcustompackage2",
     "description": "This is for custom package laravel",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "moizatharsoftcube",
             "email": "moizatharecoders12@gmail.com"
         }
     ],
-    "require": {}
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "moizatharsoftcube\\laravelcustompackage2\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "moizatharsoftcube\\laravelcustompackage2"
+            ]
+        }
+    }
 }
