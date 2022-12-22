@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "moizatharsoftcube\\laravelcustompackage2"
+                "moizatharsoftcube\\laravelcustompackage2\\CustomPackageServiceProvider"
             ]
         }
     }
