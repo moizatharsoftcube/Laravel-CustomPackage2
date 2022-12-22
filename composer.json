@@ -1,0 +1,11 @@
+{
+    "name": "moizatharsoftcube/laravelcustompackage2",
+    "description": "This is for custom package laravel",
+    "authors": [
+        {
+            "name": "moizatharsoftcube",
+            "email": "moizatharecoders12@gmail.com"
+        }
+    ],
+    "require": {}
+}
